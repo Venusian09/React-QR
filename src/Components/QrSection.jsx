@@ -44,7 +44,7 @@ export default function QrSection() {
           <BsArrowRight />
         </button>
       </form>
-      {showError && <p>Wpisz wartość</p>}
+      {showError && <p class="qr__error">Wpisz wartość</p>}
     </div>
   );
 }
